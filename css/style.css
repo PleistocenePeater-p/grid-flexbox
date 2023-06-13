@@ -12,7 +12,7 @@
 
 main {
     height: 200px;
-    width: 500px;
+    width: 450px;
     background-color: white;
     display: flex;
 }
@@ -33,23 +33,21 @@ h2 {
 h5 {
     margin-top: 0;
     margin-bottom: 0;
-    color:dimgrey;
+    color:rgb(138, 138, 138);
 }
 #five-min-free {
-    margin-top: 20px;
+    margin-top: 7px;
     margin-bottom: 0px;
     font-size: small;
     font-weight: bold;
 }
 #bio {
     font-size: small;
-    border-left-color: rgb(116, 186, 130);
-    border-left: 3px;
-    margin-top: 10px;
-    margin-left: 8px;
+    border-left: 3px solid  rgb(116, 186, 130);
+    margin-top: 7px;
     margin-bottom: 3px;
-    padding-left: 10px;
-    color:darkgray;
+    padding-left: 8px;
+    color:rgb(180, 180, 180);
 }
 
 p {
@@ -109,7 +107,10 @@ p {
   }
 
   #rating {
-    height: 80px; 
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 30px; 
+    width: 40%;
   }
 
 
